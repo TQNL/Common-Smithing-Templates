@@ -1,0 +1,33 @@
+{
+  "criteria": {
+    "summoned_dragon": {
+      "trigger": "minecraft:summoned_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:ender_dragon"
+            }
+          }
+        ]
+      }
+    },
+    "entered_end": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "minecraft:the_end"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "summoned_dragon",
+      "entered_end"
+    ]
+  ],
+  "rewards": {
+    "function": "trim2:end_crystal"
+  }
+}
