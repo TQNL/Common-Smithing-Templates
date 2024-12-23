@@ -1,10 +1,6 @@
 {
   "pack": {
     "description": "Makes some of the rarest armor templates more common with various methods. By ThijquintNL.",
-    "pack_format": 18,
-    "supported_formats": {
-      "min_inclusive": 18,
-      "max_inclusive": 26
-    }
+    "pack_format": 41
   }
 }

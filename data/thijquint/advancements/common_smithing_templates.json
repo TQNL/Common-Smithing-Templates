@@ -1,10 +1,10 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:dune_armor_trim_smithing_template"
+      "id": "minecraft:dune_armor_trim_smithing_template"
     },
     "title": "Common Smithing Templates",
-    "description": "makes some armor trims more common",
+    "description": "Makes some armor trims more common",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": false
